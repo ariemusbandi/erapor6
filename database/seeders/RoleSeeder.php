@@ -27,6 +27,7 @@ class RoleSeeder extends Seeder
 			array('name' => 'wali', 'display_name' => 'Wali Kelas','description' => 'Wali Kelas'),
 			array('name' => 'pembina_ekskul', 'display_name' => 'Pembina Ekstrakurikuler','description' => 'Pembina Ekstrakurikuler'),
 			array('name' => 'eksternal', 'display_name' => 'Penguji Eksternal UKK','description' => 'Penguji Eksternal UKK'),
+			array('name' => 'guru-p5', 'display_name' => 'Guru Pengampu P5','description' => 'Guru Pengampu P5'),
 		);
 		DB::table('roles')->truncate();
     	foreach($roles as $role){
